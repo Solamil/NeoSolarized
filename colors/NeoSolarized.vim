@@ -187,8 +187,8 @@ let colors_name = "NeoSolarized"
 " Background value based on termtrans setting "{{{
 " ---------------------------------------------------------------------
 if (has("gui_running") || g:neosolarized_termtrans == 0)
-    let s:gui_back        = s:gui_base03
-    let s:term_back        = s:term_base03
+    let s:gui_back        = "NONE" 
+    let s:term_back        = "NONE" 
 else
     let s:gui_back        = "NONE"
     let s:term_back        = "NONE"
